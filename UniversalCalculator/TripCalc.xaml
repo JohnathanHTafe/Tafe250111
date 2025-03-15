@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Calculator.TripCalc"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightGray" Width="1500">
+
+    <Grid>
+		<TextBlock HorizontalAlignment="Left" Height="133" Margin="349,33,0,0" Text="Trip Calculator" TextWrapping="Wrap" VerticalAlignment="Top" Width="820" FontSize="80" FontWeight="ExtraBold"/>
+		<TextBlock HorizontalAlignment="Left" Height="60" Margin="94,221,0,0" Text="Date Hire: " TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="40" TextAlignment="Right"/>
+		<TextBlock HorizontalAlignment="Left" Height="60" Margin="94,317,0,0" Text="Starting Kilometers:" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="40" TextAlignment="Right"/>
+		<TextBlock HorizontalAlignment="Left" Height="60" Margin="94,419,0,0" Text="Ending Kilometers:" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="40" TextAlignment="Right"/>
+		<TextBlock HorizontalAlignment="Left" Height="60" Margin="94,500,0,0" Text="Number of day hired:" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="40" TextAlignment="Right"/>
+		<TextBlock HorizontalAlignment="Left" Height="60" Margin="94,590,0,0" Text="Price per day:" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="40" TextAlignment="Right"/>
+		<TextBlock HorizontalAlignment="Left" Height="60" Margin="94,690,0,0" Text="Amount to pay:" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="40" TextAlignment="Right"/>
+		<DatePicker x:Name="dateHirePicker" Margin="631,221,0,0" VerticalAlignment="Top" Height="53" Width="448" />
+		<TextBox Name="startingKilometersBox" HorizontalAlignment="Left" Height="60" Margin="631,317,0,0"  VerticalAlignment="Top" Width="325" FontSize="35"/>
+		<TextBox Name="endingKilometersBox" HorizontalAlignment="Left" Height="60" Margin="631,419,0,0"  VerticalAlignment="Top" Width="325" FontSize="35"/>
+		<TextBox Name="numOfDayHiredBox" HorizontalAlignment="Left" Height="60" Margin="631,500,0,0"  VerticalAlignment="Top" Width="325" FontSize="35"/>
+		<TextBox Name="pricePerDayBox" HorizontalAlignment="Left" Height="60" Margin="631,590,0,0" Text="" VerticalAlignment="Top" Width="325" FontSize="35"/>
+		<TextBox Name="amountToPayBox"  HorizontalAlignment="Left" Height="60" Margin="631,690,0,0" Text="" VerticalAlignment="Top" Width="325" IsReadOnly="True" FontSize="35"/>
+		<Button Name="TodaysDateButton" Content="Todays Date" VerticalAlignment="Top" Margin="1144,204,0,0" Height="70" Width="200" FontSize="30" Background="DarkGray" />
+		<Button Name="ExitButton" Content="Exit" VerticalAlignment="Top" Margin="979,853,0,0" Height="90" Width="200" FontSize="50" FontWeight="Bold" Background="DarkGray" Click="ExitButton_Click" />
+		<Button Name="CalculateButton" Content="Calculate" HorizontalAlignment="Left" Height="100" Margin="289,843,0,0" VerticalAlignment="Top" Width="300" FontSize="50" FontWeight="Bold" Background="DarkGray" Click="CalculateButton_Click"/>
+	</Grid>
+</Page>
