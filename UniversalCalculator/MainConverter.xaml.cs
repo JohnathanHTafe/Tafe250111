@@ -78,7 +78,7 @@ namespace Calculator
 
 		private void Exit_Click(object sender, RoutedEventArgs e)
 		{
-			Application.Current.Exit();
+			this.Frame.Navigate(typeof(MainMenu));
 		}
 	}
 }
