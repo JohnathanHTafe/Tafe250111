@@ -21,11 +21,11 @@ using Windows.Web.UI.Interop;
 /// Exit Button doesn't work
 /// Can't rename xaml/xaml.cs files to an appropriate name
 
-namespace MortgageCalculator
+namespace Calculator
 {
-    public sealed partial class MainPage : Page
+    public sealed partial class mortgageCalc : Page
     {
-        public MainPage()
+        public mortgageCalc()
         {
             this.InitializeComponent();
         }
