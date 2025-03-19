@@ -15,5 +15,7 @@
         <Button Content="Currency Converter" HorizontalAlignment="Left" Height="107" Margin="452,460,0,0" VerticalAlignment="Top" Width="523" FontSize="40" FontWeight="Bold" Click="CurrencyConverterButton_Click" />
         <Button Content="Exit" HorizontalAlignment="Left" Height="116" Margin="452,777,0,0" VerticalAlignment="Top" Width="523" FontSize="40" FontWeight="Bold" Click="ExitButton_Click"/>
         <Image HorizontalAlignment="Left" Height="203" VerticalAlignment="Top" Width="265" Margin="1140,102,0,0" Source="abacus.PNG"/>
-    </Grid>
+		<Button Content="Trip Calculator" HorizontalAlignment="Left" Height="116" Margin="452,609,0,0" VerticalAlignment="Top" Width="523" FontSize="40" FontWeight="Bold" Click="Button_Click"/>
+
+	</Grid>
 </Page>
